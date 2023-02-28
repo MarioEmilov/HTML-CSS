@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.head {
+    height: 75vh;
+    border: 1px solid black;
+    background-image: url(./images/landing-photo.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+    background-position: 10% 50%;
+    overflow: hidden;
+
+}
+
+.nav-bar {
+    width: 75%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel {
+    font-weight: bold;
+    font-size: 40px;
+    flex-basis: 0%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+.navigation ul li a,
+.travel a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation .explore,
+.explore-homes {
+    background-color: #370511;
+    border-radius: 20px;
+    padding: 10px 15px;
+    padding: 7px 36px;
+
+}
+
+.navigation .explore a,
+.explore-homes {
+    color: white;
+}
+
+.explore-homes {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.head-section {
+    position: absolute;
+    top: 230px;
+    left: 240px;
+
+}
+
+.head-section h1 {
+    font-size: 72px;
+}
+
+.head-section h2 {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.head-section p {
+    font-size: 24px;
+    margin-bottom: 36px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 100px auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.cards .card .card-image {
+    flex-basis: 100%;
+}
+
+.context-text {
+    text-align: center;
+}
+
+.context-text .most-famous {
+    font-size: 52px;
+}
+
+.context-text .recommended {
+    font-size: 26px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-image {
+    height: 50%;
+}
+
+.card-image img {
+    height: 286px;
+    width: 512px;
+    object-fit: cover;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card-content {
+    margin-top: 55px;
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    margin-bottom: 20px;
+}
+
+button.discover {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 35px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.foot {
+    background-color: black;
+    height: 300px;
+    display: flex;
+
+
+}
+
+.foot-content {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.travel-bottom {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.foot-content li {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.offers li a,
+.about li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.follow-us {
+    color: white;
+    font-size: 20px;
+}
+
+.follow-us i {
+    font-size: 26px;
+    margin-right: 23px;
+}

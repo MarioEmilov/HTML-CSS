@@ -1,0 +1,33 @@
+@media screen and (max-width: 600px) {
+      .tm-cta-section {
+            width: unset;
+      }
+      .row {
+            display: inline;
+            flex-wrap: wrap;
+            margin-left: -15px;
+            margin-right: -15px;
+      }
+      .tm-section-title {
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 410px;
+      }
+      .tm-paging-links {
+            margin-bottom: 11px;
+            margin-top: 50px;
+      }
+      .tm-paging-item {
+            width: 28%;
+      }
+      .tm-gallery-page {
+            margin: unset;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+      }
+      .tm-cta-section {
+            display: inline;
+      }
+}
